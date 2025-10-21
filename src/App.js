@@ -1,8 +1,10 @@
-import TodoApp from "./components/todoApp";
+import TodoApp from "./components/todo/todoApp";
+import WheatherApp from "./components/weather/wheatherApp";
+import MoebiusCarousel from "./components/moebius/moebiusCarousel";
 
 function App() {
   return (
-    <TodoApp />
+    <WheatherApp />
   );
 }
 
